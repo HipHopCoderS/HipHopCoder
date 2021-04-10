@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HipHop_&amp;_Coder</title>
+  
+  <subtitle>事在人为，功不唐捐！</subtitle>
+  <link href="http://hiphopcoder.com/atom.xml" rel="self"/>
+  
+  <link href="http://hiphopcoder.com/"/>
+  <updated>2021-04-10T05:06:24.124Z</updated>
+  <id>http://hiphopcoder.com/</id>
+  
+  <author>
+    <name>卡尔西</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://hiphopcoder.com/hello-world/"/>
+    <id>http://hiphopcoder.com/hello-world/</id>
+    <published>2021-04-06T13:41:51.511Z</published>
+    <updated>2021-04-10T05:06:24.124Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><!-- toc --><ul><li><a href="#quick-start">Quick Start</a><ul><li><a href="#create-a-new-post">Create a new post</a></li><li><a href="#run-server">Run server</a></li><li><a href="#generate-static-files">Generate static files</a></li><li><a href="#deploy-to-remote-sites">Deploy to remote sites</a></li></ul></li></ul><!-- tocstop --><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><span id="more"></span><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><div id="gitalk-container"></div><script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script><link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalkConfig = {"clientID":"6411498ca0e1db0a6d9b","clientSecret":"4499d5aed4c7a9243ef68a8209356325ba830493","repo":"HexoComments","owner":"HipHopCoderS","admin":"HipHopCoderS","distractionFreeMode":false};    gitalkConfig.id = md5(location.pathname);var gitalk = new Gitalk(gitalkConfig);    gitalk.render("gitalk-container");    </script>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- toc --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#quick-start&quot;&gt;Quick Start&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#create-a-new-post&quot;&gt;Create a new post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#run-server&quot;&gt;Run server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#generate-static-files&quot;&gt;Generate static files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#deploy-to-remote-sites&quot;&gt;Deploy to remote sites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;
+
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>

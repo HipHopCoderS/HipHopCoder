@@ -39,7 +39,7 @@ $(document).ready(function () {
         item: function (data) {
           console.log(data)
           return (
-            '<a href="' + CONFIG.root + data.permalink + '" class="algolia-hit-item-link">' +
+            '<a href="'  + data.permalink + '" class="algolia-hit-item-link">' +
             // '<a href="' + CONFIG.root + data.slug + '" class="algolia-hit-item-link">' +
             data._highlightResult.title.value +
             '</a>'

@@ -2,133 +2,133 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/</loc>
+        <loc>http://example.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Vim/</loc>
+        <loc>http://example.com/categories/Vim/</loc>
         <lastmod>2021-04-11T04:54:02.340Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Linux/</loc>
+        <loc>http://example.com/categories/Linux/</loc>
         <lastmod>2021-04-11T04:54:02.331Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Tomcat/</loc>
+        <loc>http://example.com/categories/Tomcat/</loc>
         <lastmod>2021-04-11T04:54:02.326Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/TestNg/</loc>
+        <loc>http://example.com/categories/TestNg/</loc>
         <lastmod>2021-04-11T04:54:02.324Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/%25E7%25BD%2591%25E7%25BB%259C/</loc>
+        <loc>http://example.com/categories/%25E7%25BD%2591%25E7%25BB%259C/</loc>
         <lastmod>2021-04-11T04:54:02.320Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/SeleniumWebDriver/</loc>
+        <loc>http://example.com/categories/SeleniumWebDriver/</loc>
         <lastmod>2021-04-11T04:54:02.311Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/RobotFramework-Test/</loc>
+        <loc>http://example.com/categories/RobotFramework-Test/</loc>
         <lastmod>2021-04-11T04:54:02.309Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Python/</loc>
+        <loc>http://example.com/categories/Python/</loc>
         <lastmod>2021-04-11T04:54:02.299Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Mysql/</loc>
+        <loc>http://example.com/categories/Mysql/</loc>
         <lastmod>2021-04-11T04:54:02.261Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Mac/</loc>
+        <loc>http://example.com/categories/Mac/</loc>
         <lastmod>2021-04-11T04:54:02.242Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Jquery/</loc>
+        <loc>http://example.com/categories/Jquery/</loc>
         <lastmod>2021-04-11T04:54:02.206Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Jenkins/</loc>
+        <loc>http://example.com/categories/Jenkins/</loc>
         <lastmod>2021-04-11T04:54:02.204Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/JAVA/</loc>
+        <loc>http://example.com/categories/JAVA/</loc>
         <lastmod>2021-04-11T04:54:02.201Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/%25E8%2587%25AA%25E5%258A%25A8%25E5%258C%2596%25E6%25B5%258B%25E8%25AF%2595-IOS/</loc>
+        <loc>http://example.com/categories/%25E8%2587%25AA%25E5%258A%25A8%25E5%258C%2596%25E6%25B5%258B%25E8%25AF%2595-IOS/</loc>
         <lastmod>2021-04-11T04:54:02.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Git/</loc>
+        <loc>http://example.com/categories/Git/</loc>
         <lastmod>2021-04-11T04:54:02.187Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Docker/</loc>
+        <loc>http://example.com/categories/Docker/</loc>
         <lastmod>2021-04-11T04:54:02.180Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Appium/</loc>
+        <loc>http://example.com/categories/Appium/</loc>
         <lastmod>2021-04-11T04:54:02.176Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hiphopcoder.gitee.io/categories/Android/</loc>
+        <loc>http://example.com/categories/Android/</loc>
         <lastmod>2021-04-11T04:54:02.169Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

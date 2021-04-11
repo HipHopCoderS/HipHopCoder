@@ -51,7 +51,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-  <!-- <link href="/css/show.ua.css" rel="stylesheet" type="text/css" > -->
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script><![endif]-->
   <!-- <link href="/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
@@ -63,7 +63,6 @@
   <script src="/js/scrollReveal.js" type="text/javascript"></script>
   <script src="http://cdn.bootcss.com/instantsearch.js/1.5.1/instantsearch.js"></script>
   <script src="/js/algolia-search.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
   
   
@@ -97,8 +96,6 @@ ga('send', 'pageview');
 
 
 
-  
-  
   <!-- 
   
   
@@ -111,8 +108,8 @@ ga('send', 'pageview');
     root: '/',
     algolia: {
           applicationID: "4AJFFJS839",
-          apiKey: "2534ab1beda905a2239844a133f9625f",
-          adminApiKey: "",
+          apiKey: "d342c5c503799d1def9a712d03ff9392",
+          adminApiKey: "74e0c292b7e47d422e9f101158a82fce",
           indexName: "Hexo_Blog",
           hits: {"per_page":10},
           labels: {"input_placeholder":"搜索...","hits_empty":"未发现与 「${query}」相关的内容","hits_stats":"${hits} 条相关条目，使用了 ${time} 毫秒"}
@@ -169,34 +166,25 @@ ga('send', 'pageview');
                                                                                         aria-hidden="true"></i></a>
             </nav>
             <div id="local-search-input"></div>
-            <!-- 百度搜索 -->
-            <!-- <div id="search-form-wrap">
-        <form action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
-          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
-          <input type="submit" value="" class="search-form-submit">
-          <input name=tn type=hidden value="bds">
-          <input name=cl type=hidden value="3">
-          <input name=ct type=hidden value="2097152">
-          <input type="hidden" name="si" value="hiphopcoder.com">
-        </form>
-      </div>
-      -->
-
         </div>
     </div>
 </header>
 
     <div class="outer">
       <section id="main">
-  
-    <article   id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <article   id="post-Vim-实用技巧" class="article article-type-post" itemscope itemprop="blogPost">
   <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
-    <a  href="/hello-world/" class="article-date">
+    <a  href="/2017/3bc10084/" class="article-date">
   <i class="fa fa-calendar"></i>
-  <time  datetime="2021-04-06T13:41:51.511Z" itemprop="datePublished">2021-04-06</time>
+  <time  datetime="2017-08-03T03:42:46.000Z" itemprop="datePublished">2017-08-03</time>
 </a>
 
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Vim/">Vim</a>
+  </div>
+
 
   </div>
   <div class="article-inner"  >
@@ -208,8 +196,8 @@ ga('send', 'pageview');
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/hello-world/">
-        <i class="fa fa-pencil-square-o  article-title-icon"></i>Hello World</a>
+      <a class="article-title" href="/2017/3bc10084/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Vim-实用技巧</a>
     </h1>
   
 
@@ -219,24 +207,46 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<!-- toc -->
+        Vim 实用技巧
+Vim 命令
 
-<ul>
-<li><a href="#quick-start">Quick Start</a><ul>
-<li><a href="#create-a-new-post">Create a new post</a></li>
-<li><a href="#run-server">Run server</a></li>
-<li><a href="#generate-static-files">Generate static files</a></li>
-<li><a href="#deploy-to-remote-sites">Deploy to remote sites</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
 
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
+
+:help
+vim 说明文档的讲解
+
+:h key-notation
+vim 说明文档的讲解
+vim 键盘映射说明
+
+vim -u NONE -N
+vim 恢复出厂设置的启动方式
+
+ * -u NONE 标志让 Vim 在启动时不加载你的 vimrc
+ * -N 标志则会使能 ‘nocompatible’ 选 项，防止进入 vi 兼容模式。Vim 解决问题方式
+   
+
+
+
+
+ * 结识.命令
+    * . 命令可以让我重复上次修改，vim 中的多面手
+    * 在normal模式，. 命令可以重复执行上一次的操作命令，根据光标的位置，相当于宏
+    * 进入inster 模式后，编辑后退出到normal后 .命令可以重新执行所有的操作
+   
+   
+ * 不要自我重复(组合Vim的命令操作)
+   用复合的命令方式操作Vim 提高效率
+   
+   
+
+复合命令等效命令Cc$S^csclI^iA$aoA<CR>Oko * Vim 可重复操作以及回退
+   
+
+目的操作重复按键回退行内查找下一个f{char}/t{char};,行内查找上一
         
           <p class="article-more-link ">
-            <a href="/hello-world/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+            <a href="/2017/3bc10084/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
           </p>
         
       
@@ -245,9 +255,11 @@ ga('send', 'pageview');
 
     <footer class="article-footer">
       
-        <a data-url="http://hiphopcoder.com/hello-world/" data-id="cknbs4ivg0000ps2zar4x6807" class="article-share-link" data-share="baidu" data-title="Hello World">分享到</a>
+        <a data-url="http://hiphopcoder.com/2017/3bc10084/" data-id="ckncpsc9y004cs62z884uad34" class="article-share-link" data-share="baidu" data-title="Vim-实用技巧">分享到</a>
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/" rel="tag">tools</a></li></ul>
+
 
     </footer>
   </div>
@@ -257,8 +269,867 @@ ga('send', 'pageview');
 
 
 
+
+
+
+    
+        <article   id="post-Shadowsocks-安装及使用配置" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2017/e50021a2/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2017-04-12T08:37:47.000Z" itemprop="datePublished">2017-04-12</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E7%BD%91%E7%BB%9C/">网络</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
   
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/e50021a2/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Shadowsocks-安装及使用配置</a>
+    </h1>
   
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        Shadowsocks 做为翻墙的代理，安装配置使用方便，这里记录下安装配置Shadowsocks 的总结
+
+服务端的安装
+首先弄个VPS（境外的）开始安装
+
+Debian / Ubuntu:
+
+apt-get install python-pip
+pip install shadowsocks
+
+
+CentOS:
+
+yum install python-setuptools && easy_install pip
+pip install shadowsocks
+
+
+Windows:
+参考：Github Windows Shadowsocks install
+
+服务启动
+ 1. 直接启动Shadowsocks 服务
+    ssserver -p 端口 -m 密码 -m 加密方式 --user 用户名 -d start
+    启动 & 停止
+    
+    sudo ssserver -p 443 -k password -m aes-256-cfb --user nobody -d start
+    sudo ssserver -d stop
+    
+    
+    
+ 2
+        
+          <p class="article-more-link ">
+            <a href="/2017/e50021a2/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2017/e50021a2/" data-id="ckncpsc9p003ts62z1fpydvs1" class="article-share-link" data-share="baidu" data-title="Shadowsocks-安装及使用配置">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shadowsocks/" rel="tag">shadowsocks</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Docker安装启动" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2017/ea3064bf/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2017-04-06T03:43:27.000Z" itemprop="datePublished">2017-04-06</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Docker/">Docker</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/ea3064bf/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Docker安装启动(Centos7)</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        在Centos上，Dcoker 针对环境的要求是 Centos7 以上，结合官网，针对Centos7 上Docker 的环境进行下整理 
+
+Docker 分为 CE (社区版) EE (企业版)，这里针对社区版在Censtos7的例子
+
+准备：
+ 1. 系统要求:Centos7.x86_64
+ 2. 删除之前的老版本：$ sudo yum remove docker \
+                      docker-common \
+                      container-selinux \
+                      docker-selinux \
+                      docker-engine
+    or
+    $ sudo yum remove docker-ce
+    
+    
+    
+
+安装
+ 1. 设置Docke 镜像库
+    
+    $ sudo yum install -y yum-utils
+    
+    $ sudo yum-config-manager \
+      
+        
+          <p class="article-more-link ">
+            <a href="/2017/ea3064bf/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2017/ea3064bf/" data-id="ckncpsc7t000ps62zfj4m14hu" class="article-share-link" data-share="baidu" data-title="Docker安装启动(Centos7)">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/" rel="tag">docker</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Linux-免密码远程登录配置" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2017/445f28e5/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2017-03-24T03:08:27.000Z" itemprop="datePublished">2017-03-24</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/445f28e5/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Linux-免密码远程登录配置</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        当执行ssh 远程登录linux服务器的时候需要输入密码，因为ssh 基于ssl 加密协议，所以可通过配置公钥私钥，进行客户端与服务器的配置，达到免密码登录的效果 
+
+生成公钥私钥
+ 1. 确认客户端已经安装SSH ,执行 ssh-keygen -t rsa ,然后一路回车完成
+    公钥，私钥，可以自己定义名字（建议使用不同的后缀名区分不同的公钥私钥）
+    
+
+ 2. 进入 /root/.ssh/ 目录下可以看到新生成的 id_rsa_remote , idrsa_remote.pub 
+    
+    
+ 3. 本地添加私钥
+    
+    ssh-add ~/.ssh/id_rsa_remote
+    
+    
+    提示添加成功即可 
+    
+    
+
+部署公钥
+把生成的 *.pub 公钥部署到 远程服务器上
+
+ 1. 确保远程服务器上SSH 服务器正常
+ 2. 确保远程登录用户的根目录下，有 .ssh 文件夹，如果没有新建一个
+ 3. 把你生成的公钥copy 到远程服务器上用户根目录.ssh 文件夹下，并更改文件名为authorized_keys
+    
+        
+          <p class="article-more-link ">
+            <a href="/2017/445f28e5/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2017/445f28e5/" data-id="ckncpsc8m0024s62z5iok71uj" class="article-share-link" data-share="baidu" data-title="Linux-免密码远程登录配置">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Linux-tar命令说明" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2017/343cbc01/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2017-02-09T03:34:06.000Z" itemprop="datePublished">2017-02-09</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/343cbc01/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Linux-tar命令说明</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        tar 用于 解压，压缩文件，文件夹
+
+一般的使用方法是：
+
+# 解压
+tar -xzvf  XXX.tar.gz
+tar -xjvf  xxx.tar.bz2
+
+# 压缩
+tar -czvf  XXX.tar.gz   
+tar -cjvf  xxx.tar.bz2
+
+
+一般tar 命令的结构是
+
+tar -主参数 选项 结果文件 目标文件 
+
+tar 参数
+ * 主要参数（具体是要进行什么样的操作）
+   
+   -c 创建
+   -x 解压
+   -t 浏览
+   -k 添加/替换
+   -u 更新 
+   
+   
+
+ * 选项 
+   
+   -f 后跟文件这个选项必须后面跟随文件，必选
+   -v 详细的显示 tar操作后的信息
+   -C 指定目录
+   -k 针对相同的文件不覆盖
+   -m 不使用新的时间戳
+   -P 可以使用绝对路径
+   -p 保留原版文档的属性
+   -exclude 忽略指定的文件 
+   
+   
+ * 文件格式 
+   
+   -z gzip文档
+   -j bzip2文档
+   -J xz文档
+   -lzma lzma文档 
+   
+
+        
+          <p class="article-more-link ">
+            <a href="/2017/343cbc01/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2017/343cbc01/" data-id="ckncpsc8j001zs62zc09i1ids" class="article-share-link" data-share="baidu" data-title="Linux-tar命令说明">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Vim-DIY配置说明" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2016/cc8c8390/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2016-12-23T09:49:26.000Z" itemprop="datePublished">2016-12-23</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Vim/">Vim</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/cc8c8390/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Vim-配置说明</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        Vim 堪称为编辑器之神，的确使用起来真的很方便，配置参数如下，详情参见
+GitHub
+
+这里主要说下 ‘Vim’ 用到的好的插件
+
+插件
+Vundle
+Vim 的插件管理工具
+GitHub：https://github.com/VundleVim/Vundle.vim/
+Vundle 是 vim 的插件管理工具，用于配置Vim的各个插件
+
+molokai
+Vim 主题插件
+GitHub：http://vimawesome.com/plugin/molokai
+molokai 安装好插件之后，Mac/Linux，直接把主题文件放在用户目录下 .vim/colors/，Windows 直接放在vim的安装目录的vimfiles/colors/
+
+airline
+Vim 状态栏插件,同样有airlinetheme 主题插件
+GitHub：https://github.com/vim-airline/vim-airline
+类似powerline 的vim 友好显示的状态栏
+
+tagbar
+Vim 跳转定义
+GitHub：https://github.com/majutsushi/tagba
+        
+          <p class="article-more-link ">
+            <a href="/2016/cc8c8390/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2016/cc8c8390/" data-id="ckncpsc9x004as62z4d0fclkk" class="article-share-link" data-share="baidu" data-title="Vim-配置说明">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/" rel="tag">tools</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Mac-实用工具总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2016/ff3f50f9/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2016-11-15T16:00:00.000Z" itemprop="datePublished">2016-11-16</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Mac/">Mac</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/ff3f50f9/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Mac 实用工具整理</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        Iterm2
+命令行常用工具：
+Iterm2 也是一个终端命令行工具，支持多工作区，使用清爽
+http://www.iterm2.com/documentation.html
+
+Solarized
+给你的命令行 代码上色
+Solarized,支持多种终端工具，代码颜色配套方案
+http://ethanschoonover.com/solarized
+
+Synergy
+键鼠跨平台共享
+
+Synergy 跨平台共享：
+http://synergy-project.org/
+
+Ntfs
+mac打开ntfs 格式的移动硬盘 ntsf-mac-免费版
+http://www.paragon-drivers.com/cn/ntfs-mac-free/ntfs-free.html?reg_status=ok#down#down
+
+Alfred
+Mac系统大管家,提高效率的神奇，可以快速的执行系统操作
+https://www.alfredapp.com/
+
+manico/snap
+快速启动应用
+https://manico.im/
+http://www.appinn.com/snap-dock-mac/
+        
+          <p class="article-more-link ">
+            <a href="/2016/ff3f50f9/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2016/ff3f50f9/" data-id="ckncpsc8n0029s62zfml36yz5" class="article-share-link" data-share="baidu" data-title="Mac 实用工具整理">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/" rel="tag">mac</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Selenium-Webdriver-PageObject设计模式" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2016/686a04c5/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2016-11-14T10:16:01.000Z" itemprop="datePublished">2016-11-14</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/SeleniumWebDriver/">SeleniumWebDriver</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/686a04c5/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Selenium-Webdriver-PageObject</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        设计说明
+使用Selenium Webdriver 编写UI自动化测试脚本的设计方法非常多，但是大体都分为
+
+ 1. 元素定位
+    
+    
+ 2. 业务逻辑)
+    
+    
+ 3. 断言处理
+    
+    
+
+这里对WebDriver Python 的Page Objects 设计模式就行下整理，这个模式采用面向对象的思想，把每个页面看作是一个的对象，页面的内的的所有的元素还有业务逻辑都被看作是是属性和方法
+
+class page_name():
+
+  def action1():
+    ....
+
+  def action2():
+    ....
+
+  def action3():
+    ....
+
+
+设计结构
+基本结构分为四层
+
+ * BasePage (封装WebDriver 的基础方法)
+ * PageElement (页面对象类)
+ * PageLOctors (页面坐标路径)
+ * TestCase (测试用例)
+
+
+
+
+Demo
+这里拿小米官网的登陆做一个例子
+
+BasePage/BaseDriver.py
+
+# -*- coding:utf-8 
+        
+          <p class="article-more-link ">
+            <a href="/2016/686a04c5/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2016/686a04c5/" data-id="ckncpsc9m003ns62z6yrs6v99" class="article-share-link" data-share="baidu" data-title="Selenium-Webdriver-PageObject">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/seleniumwebdriver/" rel="tag">seleniumwebdriver</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Python-操作Config文件" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2016/f01f354d/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2016-09-07T06:15:12.000Z" itemprop="datePublished">2016-09-07</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Python/">Python</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/f01f354d/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Python-操作Config文件</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        Configparser
+Configparser 是Python内置的一个config 文件读写的操作方法
+操作具体如下，例如我们的config 文件如下：
+
+[testSection]
+testoption = testValue
+testbool = true
+testfloat = 3.14
+testint = 77
+testlist = 1,2,3,4,5,6
+testoption2 = a,b,c
+
+
+
+读取操作
+import ConfigParser
+
+conf = ConfigParser.ConfigParser()
+conf.read("./test.conf")
+
+#  "获取 Boolean 类型"
+conf.getboolean("testSection", "testBool")
+
+# "获取 Float 类型"
+
+conf.getfloat("testSection", "testFloat")
+
+# "获取 Int 类型"
+conf.getint("testSection", "testInt")
+
+# "判断option是否存在"
+conf.has_o
+        
+          <p class="article-more-link ">
+            <a href="/2016/f01f354d/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2016/f01f354d/" data-id="ckncpsc960034s62z340peonj" class="article-share-link" data-share="baidu" data-title="Python-操作Config文件">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/" rel="tag">python</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+        <article   id="post-Mysql-Mac安装-brew" class="article article-type-post" itemscope itemprop="blogPost">
+  <div data-scroll-reveal="enter top and over 0.7s"  class="article-meta">
+    <a  href="/2016/8ba1655/" class="article-date">
+  <i class="fa fa-calendar"></i>
+  <time  datetime="2016-07-27T07:08:57.000Z" itemprop="datePublished">2016-07-27</time>
+</a>
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Mysql/">Mysql</a>
+  </div>
+
+
+  </div>
+  <div class="article-inner"  >
+    
+    
+
+      <header class="article-header">
+
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/8ba1655/">
+        <i class="fa fa-pencil-square-o  article-title-icon"></i>Mysql-Mac安装(brew)</a>
+    </h1>
+  
+
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        在Mac上可以直接通过 brew 工具进行安装 
+
+安装Mysql
+brew install mysql
+
+
+等待安装成功会提示信息如下：
+
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+To connect run:
+    mysql -uroot
+
+A "/etc/my.cnf" from another install may interfere with a Homebrew-built
+server starting up correctly.
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+
+
+
+
+
+
+初始化roo
+        
+          <p class="article-more-link ">
+            <a href="/2016/8ba1655/#more"><i class="fa fa-coffee" style="padding-right: 2px"></i>Read More</a>
+          </p>
+        
+      
+    </div>
+
+
+    <footer class="article-footer">
+      
+        <a data-url="http://hiphopcoder.com/2016/8ba1655/" data-id="ckncpsc8t002es62zc7a20zkx" class="article-share-link" data-share="baidu" data-title="Mysql-Mac安装(brew)">分享到</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/" rel="tag">mysql</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+    
+    
+        <nav id="page-nav">
+            <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/">&gt;</a>
+        </nav>
+    
 
 </section>
       
@@ -272,7 +1143,23 @@ ga('send', 'pageview');
       <ul>
         
           <li onclick="javascript:document.getElementById('recentpost_item').click();">
-            <a id="recentpost_item" href="/hello-world/">Hello World</a>
+            <a id="recentpost_item" href="/2017/3bc10084/">Vim-实用技巧</a>
+          </li>
+        
+          <li onclick="javascript:document.getElementById('recentpost_item').click();">
+            <a id="recentpost_item" href="/2017/e50021a2/">Shadowsocks-安装及使用配置</a>
+          </li>
+        
+          <li onclick="javascript:document.getElementById('recentpost_item').click();">
+            <a id="recentpost_item" href="/2017/ea3064bf/">Docker安装启动(Centos7)</a>
+          </li>
+        
+          <li onclick="javascript:document.getElementById('recentpost_item').click();">
+            <a id="recentpost_item" href="/2017/445f28e5/">Linux-免密码远程登录配置</a>
+          </li>
+        
+          <li onclick="javascript:document.getElementById('recentpost_item').click();">
+            <a id="recentpost_item" href="/2017/343cbc01/">Linux-tar命令说明</a>
           </li>
         
       </ul>
@@ -282,6 +1169,13 @@ ga('send', 'pageview');
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title" data-scroll-reveal="enter top and over 0.7s" ><i class="fa fa-tasks"></i>分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Appium/">Appium</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Docker/">Docker</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JAVA/">JAVA</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Jenkins/">Jenkins</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Jquery/">Jquery</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac/">Mac</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mysql/">Mysql</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Python/">Python</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/RobotFramework-Test/">RobotFramework_Test</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/SeleniumWebDriver/">SeleniumWebDriver</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/TestNg/">TestNg</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tomcat/">Tomcat</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Vim/">Vim</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%BB%9C/">网络</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-IOS/">自动化测试_IOS</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
 
   <script>
   $(document).on("click", "ul.category-list li.category-list-item", function () {
@@ -291,14 +1185,21 @@ ga('send', 'pageview');
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title" data-scroll-reveal="enter top and over 0.7s" ><i class="fa fa-cloud"></i>标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/android/" style="font-size: 16.67px;">android</a> <a href="/tags/appium/" style="font-size: 13.33px;">appium</a> <a href="/tags/ci/" style="font-size: 10px;">ci</a> <a href="/tags/docker/" style="font-size: 11.67px;">docker</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/ios/" style="font-size: 11.67px;">ios</a> <a href="/tags/java/" style="font-size: 15px;">java</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/mac/" style="font-size: 10px;">mac</a> <a href="/tags/mysql/" style="font-size: 15px;">mysql</a> <a href="/tags/python/" style="font-size: 18.33px;">python</a> <a href="/tags/robotframework/" style="font-size: 13.33px;">robotframework</a> <a href="/tags/seleniumwebdriver/" style="font-size: 11.67px;">seleniumwebdriver</a> <a href="/tags/shadowsocks/" style="font-size: 10px;">shadowsocks</a> <a href="/tags/testng/" style="font-size: 10px;">testng</a> <a href="/tags/tomcat/" style="font-size: 13.33px;">tomcat</a> <a href="/tags/tools/" style="font-size: 11.67px;">tools</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a>
+    </div>
+  </div>
+
 
   
     
   <div class="widget-wrap">
     <h3 class="widget-title" data-scroll-reveal="enter top and over 0.7s" ><i class="fa fa-archive"></i>归档</h3>
     <div class="widget">
-      <!-- <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">四月 2021</a><span class="archive-list-count">1</span></li></ul> -->
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">2021年04月</a><span class="archive-list-count">1</span></li></ul>
+      <!-- <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">八月 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">四月 2017</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">十一月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">四月 2016</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">九月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">八月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">七月 2015</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">六月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">四月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">三月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">一月 2015</a><span class="archive-list-count">1</span></li></ul> -->
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">2017年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">2017年04月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">2017年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">2017年02月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">2016年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">2016年11月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">2016年09月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">2016年07月</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">2016年06月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">2016年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">2016年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">2016年03月</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016年02月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015年12月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">2015年11月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">2015年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">2015年08月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">2015年07月</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">2015年06月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015年03月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">2015年01月</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -734,14 +1635,6 @@ $(document).on("click", "ul.archive-list li.archive-list-item", function () {
 
                 
 
-                
-                    <a id="music-icon-color" class="weight-icon-link" target="_blank" href="https://music.163.com/#/user/home?id=91785403"
-                       data-toggle="tooltip" data-placement="top" title="音乐">
-                  <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-music  fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
                 
 
 
